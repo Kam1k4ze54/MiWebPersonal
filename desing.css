@@ -13,17 +13,21 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 100px 0px 100px;    
+    margin: 0px 100px 0px 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
 }
 .redes-sociales {
     display: flex;
     gap: 80px;     
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}   
+    list-style: none;
+    text-decoration: none;
+}
 .red {
-    font-family: monospace;
     font-size: 20px;
-}   
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
 .contenedor {
     display: flex;
     justify-content: space-between;
@@ -37,6 +41,48 @@
     gap: 200px;
     margin-left: 300px;
     margin-right: 300px;
+}
+.contenedor3 {
+    display: flex;
+    gap: 200px;
+    margin: 100px 300px;
+    align-items: flex-start;
+}
+
+.educacion {
+    width: 50%;
+}
+
+.contacto {
+    width: 50%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #333;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.03);
+    transition: 0.3s;
 }
 
 
