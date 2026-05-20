@@ -1,0 +1,129 @@
+.cabezera{
+    background-color: #a3a656;
+    padding-left: 70px;
+    height: 70px;
+}
+.menu{
+    font-family: 'Inter',Regular;
+    font-size: 16px;
+}
+.introduccion{
+    margin-left: 70px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+.intro{
+    font-size: 96px;
+    margin-bottom: 100px;
+    color: #000;
+    font-family: 'Romanesco',Regular;
+}
+.parrafo{
+    font-size: 30px;
+}
+.formulario{
+    background-color: #F2F6F6;
+    height: 100px;
+    font-family: 'Inter',Regular;
+    font-size: 16px;
+}
+.borde{
+    border-radius: 15px;
+    border-color: white;
+    height: 40px;
+}
+
+@media (max-width: 768px){
+
+    .cabezera{
+        padding-left:20px;
+        padding-right:20px;
+
+        height:auto;
+
+        padding-top:20px;
+        padding-bottom:20px;
+    }
+
+    .menu{
+        justify-content:center;
+        text-align:center;
+    }
+
+    .introduccion{
+        margin-left:20px;
+        margin-right:20px;
+        margin-top:50px;
+        margin-bottom:50px;
+    }
+
+    .intro{
+        font-size:60px;
+        text-align:center;
+
+        margin-bottom:40px;
+    }
+
+    .parrafo{
+        font-size:20px;
+        text-align:center;
+    }
+
+    .formulario{
+        height:auto;
+        padding:30px 20px;
+    }
+
+    .borde{
+        width:100%;
+        max-width:300px;
+    }
+
+}
+
+.contenedor{
+    max-width:250px;
+    width:100%;
+    margin-top: 100px;
+
+}
+.fondo{
+    background-color: #a3a656;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 100px;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.icono{
+    width:120px;
+    height:120px;
+    border:5px solid olive;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:auto;
+    font-size:50px;
+}
+
+.btn-plan{
+    background-color:#a6a64d;
+    color:white;
+    border:none;
+    padding:10px 30px;
+    border-radius:35px;
+    margin:20px 0;
+}
+.final{
+    margin-top: 100px;
+    background-color: #F2F6F6;
+    min-height: 770px;
+}
+ul{
+    width: fit-content;
+    margin:  auto;
+}
