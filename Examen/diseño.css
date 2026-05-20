@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+    font-size: 1rem;
+}
+
+.cabecera {
+    background-color: #209dc7;
+    color: white;
+    text-align: left;
+    padding: 10px ;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px ;
+    font-family: Verdana;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.barra h3 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.barra h3 span:first-child {
+    color: #209dc7;
+}
+
+.barra h3 span:last-child {
+    color: hsl(40, 97%, 50%)
+ ;
+}
+
+.lista {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.lista li {
+    margin-left: 20px;
+    font-family: Verdana;
+}
+
+a, .enlace {
+    text-decoration: none;
+    font-family: Verdana;
+    color: #209dc7;
+}
+
+section, .seccion {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+h1, .titulo-seccion {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0;
+    text-align: center;
+    color: #209dc7;
+}
+
+input[type="text"], input[type="submit"], .input-form {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.servicios {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    width: 180px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.serviciosletras {
+    color: #209dc7;
+}
+
+.imagen-servicio {
+    border: 4px solid hsl(40, 97%, 50%);
+    border-radius: 100px; 
+    box-shadow: 6px 6px 15px #EEE;
+    max-width: 100%;
+    height: auto;
+}
+.serviciosParrafo{
+    font-family: Helvetica;
+    font-size: 0.8 rem;
+}
+.opiniones {
+    background-color: #EEE;
+    margin-bottom: 0%;
+}
+
+.opiniones-subtitulo {
+    text-align: center;
+}
+
+.opiniones-contenedor {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+
+.opinion-card {
+    text-align: center;
+    width: 30%;
+}
+
+.cliente-nombre {
+    color: #209dc7;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.cliente-texto {
+    font-size: 0.8rem;
+}
+.contacto {
+    background-color: #000;
+}
+
+.seccion3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-top: 20px;
+}
+
+.articulos {
+    list-style: none;
+    padding: 0;
+}
+
+.articulos li {
+    margin-bottom: 20px;
+}
+
+.articulos a {
+    color: #FFF;
+}
+
+.articulos a:hover {
+    color: #209dc7;
+}
+
+.info-contacto h2 {
+    color: hsl(40, 97%, 50%);
+    margin-top: 0;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario-texto {
+    color: #FFF;
+    font-size: 0.8rem;
+    margin: 10px 0;
+}
+
+.input-redondeado {
+    border-radius: 25px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+
+.btn-contactar {
+    background-color: hsl(40, 97%, 50%);
+    color: #FFF;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.final {
+    text-align: center;
+    padding: 20px;
+    background-color: hsl(40, 97%, 50%);
+    color: black;
+}
+
+.pfinal{
+    font-family: Verdana;
+    font-size: 0.8 rem;
+}
+
+
